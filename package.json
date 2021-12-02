@@ -1,0 +1,29 @@
+{
+  "name": "yutubranker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.24.0",
+    "axios-retry": "^3.2.4",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "delay": "^5.0.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "html-entities": "^2.3.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "p-retry": "^5.0.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "pug": "^3.0.2",
+    "retry": "^0.13.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
