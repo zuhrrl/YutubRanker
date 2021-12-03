@@ -64,7 +64,7 @@ function getVideoRanking(data, vidId) {
 
 
 /* GET home page. */
-router.get('/youtuberanker', function (req, res, next) {
+router.get('/', function (req, res, next) {
   let user_cookie = req.cookies["session"]
   var sessionid = req.session.id
   if (user_cookie != null) {

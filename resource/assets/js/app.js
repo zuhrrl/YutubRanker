@@ -1,3 +1,7 @@
+// Jquery
+var $ = require("jquery");
+
+
 var keyword
 var youtubeUrl
 var region
@@ -20,7 +24,7 @@ $('#btn_search').click(function (e) {
     youtubeUrl = getvideoId(youtubeUrl)
     e.preventDefault()
     $.ajax({
-        url: "https://sobocode.online/youtuberanker/",
+        url: "/youtuberanker",
         type: "post",
         data: {
             keyword: keyword,
