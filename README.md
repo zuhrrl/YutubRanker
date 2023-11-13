@@ -4,7 +4,7 @@
 
 YoutubeRanker is a simple web app to get video ranking on Youtube. Build with `Express - Node.js` and `Axios`. 
 
-- Demo : [YutubRanker](https://sobocode.online/youtuberanker/)
+- Demo : [YutubRanker](https://youtu.be/5Q8P8fb01sc)
 
 ## Features
 
